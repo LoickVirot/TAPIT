@@ -3,8 +3,7 @@ Typescript API Template.
 
 ## Requirements
 
-- NodeJS
-- Typescript
+- NodeJS ^12.16.3
 
 ## Install 
 
