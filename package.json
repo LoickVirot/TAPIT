@@ -1,5 +1,5 @@
 {
-  "name": "twitterfeed",
+  "name": "tapit",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -12,13 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^6.2.0",
+    "dotenv": "^8.2.0",
     "express": "^4.16.4"
   },
   "devDependencies": {
-    "@types/dotenv": "^6.1.0",
+    "@types/dotenv": "^8.2.0",
     "@types/express": "^4.16.0",
-    "tslint": "^5.11.0",
+    "tslint": "^6.1.2",
     "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.2.2"
   }
