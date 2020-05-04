@@ -8,13 +8,18 @@
     "dev": "ts-node-dev src/index.ts",
     "test": "jest",
     "build": "tsc",
-    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "lint:fix": "tslint -c tslint.json 'src/**/*.ts' --fix"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^13.13.4",
     "dotenv": "^8.2.0",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^4.2.0",
+    "typeorm": "^0.2.24"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
