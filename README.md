@@ -14,6 +14,16 @@ After cloning the repository, go to you folder
 npm install && npm install --only=dev
 ```
 
+## Development
+
+Run dev script 
+```bash
+npm run dev
+```
+
+
+## Compile for production
+
 Compile application
 ```bash
 npm run build
