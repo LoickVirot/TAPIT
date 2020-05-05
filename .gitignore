@@ -1,7 +1,14 @@
+# PROJECT
 dist
+.env
+
+# Node JS
 node_modules
 npm-debug.log
 
+# DATABASES
 database.sqlite
+.data/
 
-.env
+# Docker
+docker-compose.prod.yml

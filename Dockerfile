@@ -1,11 +1,12 @@
 FROM node:lts-alpine
 
-RUN mkdir /app
-
 WORKDIR /app
 
-COPY . . 
+COPY ./package.json .
+COPY ./package-lock.json .
 
 RUN npm install && npm install --only=dev
+
+COPY . . 
 
 CMD [ "npm", "run", "dev" ]
